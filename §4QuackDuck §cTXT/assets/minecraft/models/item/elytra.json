@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/elytra"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "broken": 1
+            },
+            "model": "item/broken_elytra"
+        }
+    ],
+	"display": {
+		"ground": {
+            "rotation": [ 0, 10, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        }
+    }
+}

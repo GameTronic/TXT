@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+	"parent": "block/note_jukebox/note_block/notes_addon/note_block",
+	"textures": {
+	    "note": "creatorlabs/note_jukebox/note_block_addon/notes/18",
+	    "instrument": "creatorlabs/note_jukebox/note_block_addon/instruments/harp"
+	}
+}

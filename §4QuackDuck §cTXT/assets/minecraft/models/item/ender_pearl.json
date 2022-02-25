@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ender_pearl"
+  },
+  "display": {
+		"ground": {
+            "rotation": [ 0, 10, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 2.0, 2.0, 2.0 ]
+        }
+    }
+}
