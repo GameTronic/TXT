@@ -1,0 +1,101 @@
+{
+"animation": {
+	"interpolate": false,
+	"frametime": 2,
+		"frames": [
+			{
+				"index": 0,
+				"time": 60  
+			},
+			{
+				"index": 2
+			},
+			{
+				"index": 1
+			},
+			{
+				"index": 3,
+				"time": 60  
+			},
+			{
+				"index": 2
+			},
+			{
+				"index": 4  
+			},
+			{
+				"index": 5  
+			},
+			{
+				"index": 6  
+			},
+			{
+				"index": 5  
+			},
+			{
+				"index": 6,
+				"time": 4  
+			},
+			{
+				"index": 5,
+				"time": 5  
+			},
+			{
+				"index": 6,
+				"time": 6  
+			},
+			{
+				"index": 5,
+				"time": 7
+			},
+			{
+				"index": 6,
+				"time": 8  
+			},
+			{
+				"index": 5,
+				"time": 9
+			},
+			{
+				"index": 6,
+				"time": 10  
+			},
+			{
+				"index": 5,
+				"time": 11
+			},
+			{
+				"index": 6,
+				"time": 12 
+			},
+			{
+				"index": 7,
+				"time": 4 
+			},
+			{
+				"index": 8,
+				"time": 4 
+			},
+			{
+				"index": 9,
+				"time": 4 
+			},
+			{
+				"index": 10,
+				"time": 4 
+			},
+			{
+				"index": 11,
+				"time": 4 
+			},
+			{
+				"index": 12,
+				"time": 4 
+			},
+			{
+				"index": 13,
+				"time": 4 
+			}	
+		]
+	}
+}
