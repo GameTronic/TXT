@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/floating_red_sand"
+      },
+      {
+        "model": "minecraft:block/floating_red_sand",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/floating_red_sand",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/floating_red_sand",
+        "y": 270
+      }
+    ]
+  }
+}
