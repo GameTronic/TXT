@@ -1,5 +1,4 @@
 {
-	"credit": "Created by Stridey",
 	"parent": "block/block",
 	"textures": {
 		"top": "block/composter_top",
