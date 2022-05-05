@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "fire": "minecraft:block/intense_campfire_fire",
+    "lit_log": "minecraft:block/intense_campfire_log_lit"
+  }
+}
