@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "creatorlabs/noteblock",
+      "prefix": "creatorlabs/noteblock/"
+    },
+    {
+      "type": "directory",
+      "source": "creatorlabs/noteblock/instruments",
+      "prefix": "creatorlabs/noteblock/instruments/"
+    },
+    {
+      "type": "directory",
+      "source": "creatorlabs/noteblock/notes",
+      "prefix": "creatorlabs/noteblock/notes/"
+    }
+  ]
+}

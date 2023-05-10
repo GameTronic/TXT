@@ -1,407 +1,1729 @@
 {
-"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
-    
-    "variants": {
-        "instrument=harp,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/0" },
-        "instrument=harp,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/1" },
-        "instrument=harp,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/2" },
-        "instrument=harp,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/3" },
-        "instrument=harp,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/4" },
-        "instrument=harp,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/5" },
-        "instrument=harp,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/6" },
-        "instrument=harp,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/7" },
-        "instrument=harp,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/8" },
-        "instrument=harp,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/9" },
-        "instrument=harp,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/10" },
-        "instrument=harp,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/11" },
-        "instrument=harp,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/12" },
-        "instrument=harp,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/13" },
-        "instrument=harp,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/14" },
-        "instrument=harp,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/15" },
-        "instrument=harp,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/16" },
-        "instrument=harp,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/17" },
-        "instrument=harp,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/18" },
-        "instrument=harp,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/19" },
-        "instrument=harp,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/20" },
-        "instrument=harp,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/21" },
-        "instrument=harp,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/22" },
-        "instrument=harp,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/23" },
-        "instrument=harp,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/24" },
-        "instrument=basedrum,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/0" },
-        "instrument=basedrum,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/1" },
-        "instrument=basedrum,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/2" },
-        "instrument=basedrum,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/3" },
-        "instrument=basedrum,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/4" },
-        "instrument=basedrum,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/5" },
-        "instrument=basedrum,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/6" },
-        "instrument=basedrum,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/7" },
-        "instrument=basedrum,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/8" },
-        "instrument=basedrum,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/9" },
-        "instrument=basedrum,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/10" },
-        "instrument=basedrum,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/11" },
-        "instrument=basedrum,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/12" },
-        "instrument=basedrum,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/13" },
-        "instrument=basedrum,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/14" },
-        "instrument=basedrum,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/15" },
-        "instrument=basedrum,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/16" },
-        "instrument=basedrum,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/17" },
-        "instrument=basedrum,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/18" },
-        "instrument=basedrum,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/19" },
-        "instrument=basedrum,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/20" },
-        "instrument=basedrum,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/21" },
-        "instrument=basedrum,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/22" },
-        "instrument=basedrum,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/23" },
-        "instrument=basedrum,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/24" },
-        "instrument=snare,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/0" },
-        "instrument=snare,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/1" },
-        "instrument=snare,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/2" },
-        "instrument=snare,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/3" },
-        "instrument=snare,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/4" },
-        "instrument=snare,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/5" },
-        "instrument=snare,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/6" },
-        "instrument=snare,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/7" },
-        "instrument=snare,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/8" },
-        "instrument=snare,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/9" },
-        "instrument=snare,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/10" },
-        "instrument=snare,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/11" },
-        "instrument=snare,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/12" },
-        "instrument=snare,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/13" },
-        "instrument=snare,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/14" },
-        "instrument=snare,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/15" },
-        "instrument=snare,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/16" },
-        "instrument=snare,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/17" },
-        "instrument=snare,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/18" },
-        "instrument=snare,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/19" },
-        "instrument=snare,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/20" },
-        "instrument=snare,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/21" },
-        "instrument=snare,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/22" },
-        "instrument=snare,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/23" },
-        "instrument=snare,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/24" },
-        "instrument=hat,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/0" },
-        "instrument=hat,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/1" },
-        "instrument=hat,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/2" },
-        "instrument=hat,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/3" },
-        "instrument=hat,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/4" },
-        "instrument=hat,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/5" },
-        "instrument=hat,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/6" },
-        "instrument=hat,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/7" },
-        "instrument=hat,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/8" },
-        "instrument=hat,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/9" },
-        "instrument=hat,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/10" },
-        "instrument=hat,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/11" },
-        "instrument=hat,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/12" },
-        "instrument=hat,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/13" },
-        "instrument=hat,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/14" },
-        "instrument=hat,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/15" },
-        "instrument=hat,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/16" },
-        "instrument=hat,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/17" },
-        "instrument=hat,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/18" },
-        "instrument=hat,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/19" },
-        "instrument=hat,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/20" },
-        "instrument=hat,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/21" },
-        "instrument=hat,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/22" },
-        "instrument=hat,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/23" },
-        "instrument=hat,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/24" },
-        "instrument=bass,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/0" },
-        "instrument=bass,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/1" },
-        "instrument=bass,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/2" },
-        "instrument=bass,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/3" },
-        "instrument=bass,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/4" },
-        "instrument=bass,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/5" },
-        "instrument=bass,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/6" },
-        "instrument=bass,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/7" },
-        "instrument=bass,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/8" },
-        "instrument=bass,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/9" },
-        "instrument=bass,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/10" },
-        "instrument=bass,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/11" },
-        "instrument=bass,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/12" },
-        "instrument=bass,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/13" },
-        "instrument=bass,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/14" },
-        "instrument=bass,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/15" },
-        "instrument=bass,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/16" },
-        "instrument=bass,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/17" },
-        "instrument=bass,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/18" },
-        "instrument=bass,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/19" },
-        "instrument=bass,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/20" },
-        "instrument=bass,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/21" },
-        "instrument=bass,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/22" },
-        "instrument=bass,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/23" },
-        "instrument=bass,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/24" },
-        "instrument=flute,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/0" },
-        "instrument=flute,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/1" },
-        "instrument=flute,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/2" },
-        "instrument=flute,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/3" },
-        "instrument=flute,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/4" },
-        "instrument=flute,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/5" },
-        "instrument=flute,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/6" },
-        "instrument=flute,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/7" },
-        "instrument=flute,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/8" },
-        "instrument=flute,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/9" },
-        "instrument=flute,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/10" },
-        "instrument=flute,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/11" },
-        "instrument=flute,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/12" },
-        "instrument=flute,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/13" },
-        "instrument=flute,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/14" },
-        "instrument=flute,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/15" },
-        "instrument=flute,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/16" },
-        "instrument=flute,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/17" },
-        "instrument=flute,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/18" },
-        "instrument=flute,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/19" },
-        "instrument=flute,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/20" },
-        "instrument=flute,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/21" },
-        "instrument=flute,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/22" },
-        "instrument=flute,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/23" },
-        "instrument=flute,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/24" },
-        "instrument=bell,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/0" },
-        "instrument=bell,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/1" },
-        "instrument=bell,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/2" },
-        "instrument=bell,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/3" },
-        "instrument=bell,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/4" },
-        "instrument=bell,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/5" },
-        "instrument=bell,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/6" },
-        "instrument=bell,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/7" },
-        "instrument=bell,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/8" },
-        "instrument=bell,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/9" },
-        "instrument=bell,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/10" },
-        "instrument=bell,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/11" },
-        "instrument=bell,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/12" },
-        "instrument=bell,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/13" },
-        "instrument=bell,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/14" },
-        "instrument=bell,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/15" },
-        "instrument=bell,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/16" },
-        "instrument=bell,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/17" },
-        "instrument=bell,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/18" },
-        "instrument=bell,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/19" },
-        "instrument=bell,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/20" },
-        "instrument=bell,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/21" },
-        "instrument=bell,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/22" },
-        "instrument=bell,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/23" },
-        "instrument=bell,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/24" },
-        "instrument=guitar,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/0" },
-        "instrument=guitar,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/1" },
-        "instrument=guitar,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/2" },
-        "instrument=guitar,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/3" },
-        "instrument=guitar,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/4" },
-        "instrument=guitar,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/5" },
-        "instrument=guitar,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/6" },
-        "instrument=guitar,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/7" },
-        "instrument=guitar,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/8" },
-        "instrument=guitar,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/9" },
-        "instrument=guitar,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/10" },
-        "instrument=guitar,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/11" },
-        "instrument=guitar,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/12" },
-        "instrument=guitar,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/13" },
-        "instrument=guitar,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/14" },
-        "instrument=guitar,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/15" },
-        "instrument=guitar,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/16" },
-        "instrument=guitar,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/17" },
-        "instrument=guitar,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/18" },
-        "instrument=guitar,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/19" },
-        "instrument=guitar,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/20" },
-        "instrument=guitar,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/21" },
-        "instrument=guitar,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/22" },
-        "instrument=guitar,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/23" },
-        "instrument=guitar,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/24" },
-        "instrument=chime,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/0" },
-        "instrument=chime,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/1" },
-        "instrument=chime,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/2" },
-        "instrument=chime,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/3" },
-        "instrument=chime,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/4" },
-        "instrument=chime,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/5" },
-        "instrument=chime,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/6" },
-        "instrument=chime,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/7" },
-        "instrument=chime,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/8" },
-        "instrument=chime,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/9" },
-        "instrument=chime,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/10" },
-        "instrument=chime,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/11" },
-        "instrument=chime,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/12" },
-        "instrument=chime,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/13" },
-        "instrument=chime,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/14" },
-        "instrument=chime,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/15" },
-        "instrument=chime,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/16" },
-        "instrument=chime,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/17" },
-        "instrument=chime,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/18" },
-        "instrument=chime,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/19" },
-        "instrument=chime,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/20" },
-        "instrument=chime,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/21" },
-        "instrument=chime,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/22" },
-        "instrument=chime,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/23" },
-        "instrument=chime,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/24" },
-        "instrument=xylophone,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/0" },
-        "instrument=xylophone,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/1" },
-        "instrument=xylophone,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/2" },
-        "instrument=xylophone,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/3" },
-        "instrument=xylophone,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/4" },
-        "instrument=xylophone,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/5" },
-        "instrument=xylophone,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/6" },
-        "instrument=xylophone,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/7" },
-        "instrument=xylophone,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/8" },
-        "instrument=xylophone,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/9" },
-        "instrument=xylophone,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/10" },
-        "instrument=xylophone,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/11" },
-        "instrument=xylophone,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/12" },
-        "instrument=xylophone,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/13" },
-        "instrument=xylophone,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/14" },
-        "instrument=xylophone,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/15" },
-        "instrument=xylophone,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/16" },
-        "instrument=xylophone,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/17" },
-        "instrument=xylophone,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/18" },
-        "instrument=xylophone,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/19" },
-        "instrument=xylophone,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/20" },
-        "instrument=xylophone,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/21" },
-        "instrument=xylophone,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/22" },
-        "instrument=xylophone,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/23" },
-        "instrument=xylophone,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/24" },
-		"instrument=pling,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/0" },
-        "instrument=pling,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/1" },
-        "instrument=pling,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/2" },
-        "instrument=pling,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/3" },
-        "instrument=pling,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/4" },
-        "instrument=pling,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/5" },
-        "instrument=pling,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/6" },
-        "instrument=pling,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/7" },
-        "instrument=pling,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/8" },
-        "instrument=pling,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/9" },
-        "instrument=pling,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/10" },
-        "instrument=pling,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/11" },
-        "instrument=pling,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/12" },
-        "instrument=pling,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/13" },
-        "instrument=pling,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/14" },
-        "instrument=pling,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/15" },
-        "instrument=pling,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/16" },
-        "instrument=pling,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/17" },
-        "instrument=pling,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/18" },
-        "instrument=pling,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/19" },
-        "instrument=pling,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/20" },
-        "instrument=pling,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/21" },
-        "instrument=pling,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/22" },
-        "instrument=pling,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/23" },
-        "instrument=pling,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/24" },
-		"instrument=banjo,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/0" },
-        "instrument=banjo,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/1" },
-        "instrument=banjo,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/2" },
-        "instrument=banjo,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/3" },
-        "instrument=banjo,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/4" },
-        "instrument=banjo,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/5" },
-        "instrument=banjo,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/6" },
-        "instrument=banjo,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/7" },
-        "instrument=banjo,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/8" },
-        "instrument=banjo,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/9" },
-        "instrument=banjo,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/10" },
-        "instrument=banjo,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/11" },
-        "instrument=banjo,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/12" },
-        "instrument=banjo,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/13" },
-        "instrument=banjo,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/14" },
-        "instrument=banjo,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/15" },
-        "instrument=banjo,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/16" },
-        "instrument=banjo,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/17" },
-        "instrument=banjo,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/18" },
-        "instrument=banjo,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/19" },
-        "instrument=banjo,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/20" },
-        "instrument=banjo,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/21" },
-        "instrument=banjo,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/22" },
-        "instrument=banjo,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/23" },
-        "instrument=banjo,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/24" },
-		"instrument=bit,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/0" },
-        "instrument=bit,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/1" },
-        "instrument=bit,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/2" },
-        "instrument=bit,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/3" },
-        "instrument=bit,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/4" },
-        "instrument=bit,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/5" },
-        "instrument=bit,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/6" },
-        "instrument=bit,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/7" },
-        "instrument=bit,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/8" },
-        "instrument=bit,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/9" },
-        "instrument=bit,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/10" },
-        "instrument=bit,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/11" },
-        "instrument=bit,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/12" },
-        "instrument=bit,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/13" },
-        "instrument=bit,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/14" },
-        "instrument=bit,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/15" },
-        "instrument=bit,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/16" },
-        "instrument=bit,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/17" },
-        "instrument=bit,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/18" },
-        "instrument=bit,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/19" },
-        "instrument=bit,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/20" },
-        "instrument=bit,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/21" },
-        "instrument=bit,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/22" },
-        "instrument=bit,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/23" },
-        "instrument=bit,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/24" },
-		"instrument=cow_bell,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/0" },
-        "instrument=cow_bell,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/1" },
-        "instrument=cow_bell,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/2" },
-        "instrument=cow_bell,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/3" },
-        "instrument=cow_bell,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/4" },
-        "instrument=cow_bell,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/5" },
-        "instrument=cow_bell,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/6" },
-        "instrument=cow_bell,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/7" },
-        "instrument=cow_bell,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/8" },
-        "instrument=cow_bell,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/9" },
-        "instrument=cow_bell,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/10" },
-        "instrument=cow_bell,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/11" },
-        "instrument=cow_bell,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/12" },
-        "instrument=cow_bell,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/13" },
-        "instrument=cow_bell,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/14" },
-        "instrument=cow_bell,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/15" },
-        "instrument=cow_bell,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/16" },
-        "instrument=cow_bell,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/17" },
-        "instrument=cow_bell,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/18" },
-        "instrument=cow_bell,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/19" },
-        "instrument=cow_bell,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/20" },
-        "instrument=cow_bell,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/21" },
-        "instrument=cow_bell,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/22" },
-        "instrument=cow_bell,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/23" },
-        "instrument=cow_bell,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/24" },
-		"instrument=iron_xylophone,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/0" },
-        "instrument=iron_xylophone,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/1" },
-        "instrument=iron_xylophone,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/2" },
-        "instrument=iron_xylophone,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/3" },
-        "instrument=iron_xylophone,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/4" },
-        "instrument=iron_xylophone,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/5" },
-        "instrument=iron_xylophone,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/6" },
-        "instrument=iron_xylophone,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/7" },
-        "instrument=iron_xylophone,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/8" },
-        "instrument=iron_xylophone,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/9" },
-        "instrument=iron_xylophone,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/10" },
-        "instrument=iron_xylophone,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/11" },
-        "instrument=iron_xylophone,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/12" },
-        "instrument=iron_xylophone,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/13" },
-        "instrument=iron_xylophone,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/14" },
-        "instrument=iron_xylophone,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/15" },
-        "instrument=iron_xylophone,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/16" },
-        "instrument=iron_xylophone,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/17" },
-        "instrument=iron_xylophone,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/18" },
-        "instrument=iron_xylophone,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/19" },
-        "instrument=iron_xylophone,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/20" },
-        "instrument=iron_xylophone,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/21" },
-        "instrument=iron_xylophone,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/22" },
-        "instrument=iron_xylophone,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/23" },
-        "instrument=iron_xylophone,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/24" },
-		"instrument=didgeridoo,note=0": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/0" },
-        "instrument=didgeridoo,note=1": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/1" },
-        "instrument=didgeridoo,note=2": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/2" },
-        "instrument=didgeridoo,note=3": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/3" },
-        "instrument=didgeridoo,note=4": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/4" },
-        "instrument=didgeridoo,note=5": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/5" },
-        "instrument=didgeridoo,note=6": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/6" },
-        "instrument=didgeridoo,note=7": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/7" },
-        "instrument=didgeridoo,note=8": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/8" },
-        "instrument=didgeridoo,note=9": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/9" },
-        "instrument=didgeridoo,note=10": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/10" },
-        "instrument=didgeridoo,note=11": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/11" },
-        "instrument=didgeridoo,note=12": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/12" },
-        "instrument=didgeridoo,note=13": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/13" },
-        "instrument=didgeridoo,note=14": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/14" },
-        "instrument=didgeridoo,note=15": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/15" },
-        "instrument=didgeridoo,note=16": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/16" },
-        "instrument=didgeridoo,note=17": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/17" },
-        "instrument=didgeridoo,note=18": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/18" },
-        "instrument=didgeridoo,note=19": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/19" },
-        "instrument=didgeridoo,note=20": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/20" },
-        "instrument=didgeridoo,note=21": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/21" },
-        "instrument=didgeridoo,note=22": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/22" },
-        "instrument=didgeridoo,note=23": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/23" },
-        "instrument=didgeridoo,note=24": { "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/24" }
+  "variants": {
+    "instrument=harp,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/0"
+    },
+    "instrument=harp,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/1"
+    },
+    "instrument=harp,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/2"
+    },
+    "instrument=harp,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/3"
+    },
+    "instrument=harp,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/4"
+    },
+    "instrument=harp,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/5"
+    },
+    "instrument=harp,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/6"
+    },
+    "instrument=harp,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/7"
+    },
+    "instrument=harp,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/8"
+    },
+    "instrument=harp,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/9"
+    },
+    "instrument=harp,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/10"
+    },
+    "instrument=harp,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/11"
+    },
+    "instrument=harp,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/12"
+    },
+    "instrument=harp,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/13"
+    },
+    "instrument=harp,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/14"
+    },
+    "instrument=harp,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/15"
+    },
+    "instrument=harp,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/16"
+    },
+    "instrument=harp,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/17"
+    },
+    "instrument=harp,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/18"
+    },
+    "instrument=harp,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/19"
+    },
+    "instrument=harp,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/20"
+    },
+    "instrument=harp,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/21"
+    },
+    "instrument=harp,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/22"
+    },
+    "instrument=harp,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/23"
+    },
+    "instrument=harp,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/harp/24"
+    },
+    "instrument=basedrum,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/0"
+    },
+    "instrument=basedrum,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/1"
+    },
+    "instrument=basedrum,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/2"
+    },
+    "instrument=basedrum,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/3"
+    },
+    "instrument=basedrum,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/4"
+    },
+    "instrument=basedrum,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/5"
+    },
+    "instrument=basedrum,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/6"
+    },
+    "instrument=basedrum,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/7"
+    },
+    "instrument=basedrum,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/8"
+    },
+    "instrument=basedrum,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/9"
+    },
+    "instrument=basedrum,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/10"
+    },
+    "instrument=basedrum,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/11"
+    },
+    "instrument=basedrum,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/12"
+    },
+    "instrument=basedrum,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/13"
+    },
+    "instrument=basedrum,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/14"
+    },
+    "instrument=basedrum,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/15"
+    },
+    "instrument=basedrum,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/16"
+    },
+    "instrument=basedrum,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/17"
+    },
+    "instrument=basedrum,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/18"
+    },
+    "instrument=basedrum,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/19"
+    },
+    "instrument=basedrum,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/20"
+    },
+    "instrument=basedrum,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/21"
+    },
+    "instrument=basedrum,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/22"
+    },
+    "instrument=basedrum,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/23"
+    },
+    "instrument=basedrum,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/basedrum/24"
+    },
+    "instrument=snare,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/0"
+    },
+    "instrument=snare,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/1"
+    },
+    "instrument=snare,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/2"
+    },
+    "instrument=snare,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/3"
+    },
+    "instrument=snare,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/4"
+    },
+    "instrument=snare,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/5"
+    },
+    "instrument=snare,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/6"
+    },
+    "instrument=snare,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/7"
+    },
+    "instrument=snare,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/8"
+    },
+    "instrument=snare,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/9"
+    },
+    "instrument=snare,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/10"
+    },
+    "instrument=snare,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/11"
+    },
+    "instrument=snare,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/12"
+    },
+    "instrument=snare,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/13"
+    },
+    "instrument=snare,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/14"
+    },
+    "instrument=snare,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/15"
+    },
+    "instrument=snare,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/16"
+    },
+    "instrument=snare,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/17"
+    },
+    "instrument=snare,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/18"
+    },
+    "instrument=snare,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/19"
+    },
+    "instrument=snare,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/20"
+    },
+    "instrument=snare,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/21"
+    },
+    "instrument=snare,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/22"
+    },
+    "instrument=snare,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/23"
+    },
+    "instrument=snare,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/snare/24"
+    },
+    "instrument=hat,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/0"
+    },
+    "instrument=hat,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/1"
+    },
+    "instrument=hat,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/2"
+    },
+    "instrument=hat,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/3"
+    },
+    "instrument=hat,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/4"
+    },
+    "instrument=hat,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/5"
+    },
+    "instrument=hat,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/6"
+    },
+    "instrument=hat,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/7"
+    },
+    "instrument=hat,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/8"
+    },
+    "instrument=hat,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/9"
+    },
+    "instrument=hat,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/10"
+    },
+    "instrument=hat,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/11"
+    },
+    "instrument=hat,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/12"
+    },
+    "instrument=hat,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/13"
+    },
+    "instrument=hat,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/14"
+    },
+    "instrument=hat,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/15"
+    },
+    "instrument=hat,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/16"
+    },
+    "instrument=hat,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/17"
+    },
+    "instrument=hat,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/18"
+    },
+    "instrument=hat,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/19"
+    },
+    "instrument=hat,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/20"
+    },
+    "instrument=hat,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/21"
+    },
+    "instrument=hat,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/22"
+    },
+    "instrument=hat,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/23"
+    },
+    "instrument=hat,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/hat/24"
+    },
+    "instrument=bass,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/0"
+    },
+    "instrument=bass,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/1"
+    },
+    "instrument=bass,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/2"
+    },
+    "instrument=bass,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/3"
+    },
+    "instrument=bass,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/4"
+    },
+    "instrument=bass,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/5"
+    },
+    "instrument=bass,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/6"
+    },
+    "instrument=bass,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/7"
+    },
+    "instrument=bass,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/8"
+    },
+    "instrument=bass,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/9"
+    },
+    "instrument=bass,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/10"
+    },
+    "instrument=bass,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/11"
+    },
+    "instrument=bass,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/12"
+    },
+    "instrument=bass,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/13"
+    },
+    "instrument=bass,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/14"
+    },
+    "instrument=bass,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/15"
+    },
+    "instrument=bass,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/16"
+    },
+    "instrument=bass,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/17"
+    },
+    "instrument=bass,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/18"
+    },
+    "instrument=bass,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/19"
+    },
+    "instrument=bass,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/20"
+    },
+    "instrument=bass,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/21"
+    },
+    "instrument=bass,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/22"
+    },
+    "instrument=bass,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/23"
+    },
+    "instrument=bass,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bass/24"
+    },
+    "instrument=flute,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/0"
+    },
+    "instrument=flute,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/1"
+    },
+    "instrument=flute,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/2"
+    },
+    "instrument=flute,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/3"
+    },
+    "instrument=flute,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/4"
+    },
+    "instrument=flute,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/5"
+    },
+    "instrument=flute,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/6"
+    },
+    "instrument=flute,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/7"
+    },
+    "instrument=flute,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/8"
+    },
+    "instrument=flute,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/9"
+    },
+    "instrument=flute,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/10"
+    },
+    "instrument=flute,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/11"
+    },
+    "instrument=flute,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/12"
+    },
+    "instrument=flute,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/13"
+    },
+    "instrument=flute,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/14"
+    },
+    "instrument=flute,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/15"
+    },
+    "instrument=flute,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/16"
+    },
+    "instrument=flute,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/17"
+    },
+    "instrument=flute,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/18"
+    },
+    "instrument=flute,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/19"
+    },
+    "instrument=flute,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/20"
+    },
+    "instrument=flute,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/21"
+    },
+    "instrument=flute,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/22"
+    },
+    "instrument=flute,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/23"
+    },
+    "instrument=flute,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/flute/24"
+    },
+    "instrument=bell,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/0"
+    },
+    "instrument=bell,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/1"
+    },
+    "instrument=bell,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/2"
+    },
+    "instrument=bell,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/3"
+    },
+    "instrument=bell,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/4"
+    },
+    "instrument=bell,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/5"
+    },
+    "instrument=bell,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/6"
+    },
+    "instrument=bell,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/7"
+    },
+    "instrument=bell,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/8"
+    },
+    "instrument=bell,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/9"
+    },
+    "instrument=bell,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/10"
+    },
+    "instrument=bell,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/11"
+    },
+    "instrument=bell,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/12"
+    },
+    "instrument=bell,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/13"
+    },
+    "instrument=bell,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/14"
+    },
+    "instrument=bell,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/15"
+    },
+    "instrument=bell,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/16"
+    },
+    "instrument=bell,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/17"
+    },
+    "instrument=bell,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/18"
+    },
+    "instrument=bell,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/19"
+    },
+    "instrument=bell,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/20"
+    },
+    "instrument=bell,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/21"
+    },
+    "instrument=bell,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/22"
+    },
+    "instrument=bell,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/23"
+    },
+    "instrument=bell,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bell/24"
+    },
+    "instrument=guitar,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/0"
+    },
+    "instrument=guitar,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/1"
+    },
+    "instrument=guitar,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/2"
+    },
+    "instrument=guitar,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/3"
+    },
+    "instrument=guitar,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/4"
+    },
+    "instrument=guitar,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/5"
+    },
+    "instrument=guitar,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/6"
+    },
+    "instrument=guitar,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/7"
+    },
+    "instrument=guitar,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/8"
+    },
+    "instrument=guitar,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/9"
+    },
+    "instrument=guitar,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/10"
+    },
+    "instrument=guitar,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/11"
+    },
+    "instrument=guitar,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/12"
+    },
+    "instrument=guitar,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/13"
+    },
+    "instrument=guitar,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/14"
+    },
+    "instrument=guitar,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/15"
+    },
+    "instrument=guitar,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/16"
+    },
+    "instrument=guitar,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/17"
+    },
+    "instrument=guitar,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/18"
+    },
+    "instrument=guitar,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/19"
+    },
+    "instrument=guitar,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/20"
+    },
+    "instrument=guitar,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/21"
+    },
+    "instrument=guitar,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/22"
+    },
+    "instrument=guitar,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/23"
+    },
+    "instrument=guitar,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/guitar/24"
+    },
+    "instrument=chime,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/0"
+    },
+    "instrument=chime,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/1"
+    },
+    "instrument=chime,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/2"
+    },
+    "instrument=chime,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/3"
+    },
+    "instrument=chime,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/4"
+    },
+    "instrument=chime,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/5"
+    },
+    "instrument=chime,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/6"
+    },
+    "instrument=chime,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/7"
+    },
+    "instrument=chime,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/8"
+    },
+    "instrument=chime,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/9"
+    },
+    "instrument=chime,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/10"
+    },
+    "instrument=chime,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/11"
+    },
+    "instrument=chime,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/12"
+    },
+    "instrument=chime,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/13"
+    },
+    "instrument=chime,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/14"
+    },
+    "instrument=chime,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/15"
+    },
+    "instrument=chime,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/16"
+    },
+    "instrument=chime,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/17"
+    },
+    "instrument=chime,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/18"
+    },
+    "instrument=chime,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/19"
+    },
+    "instrument=chime,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/20"
+    },
+    "instrument=chime,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/21"
+    },
+    "instrument=chime,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/22"
+    },
+    "instrument=chime,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/23"
+    },
+    "instrument=chime,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/chime/24"
+    },
+    "instrument=xylophone,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/0"
+    },
+    "instrument=xylophone,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/1"
+    },
+    "instrument=xylophone,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/2"
+    },
+    "instrument=xylophone,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/3"
+    },
+    "instrument=xylophone,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/4"
+    },
+    "instrument=xylophone,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/5"
+    },
+    "instrument=xylophone,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/6"
+    },
+    "instrument=xylophone,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/7"
+    },
+    "instrument=xylophone,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/8"
+    },
+    "instrument=xylophone,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/9"
+    },
+    "instrument=xylophone,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/10"
+    },
+    "instrument=xylophone,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/11"
+    },
+    "instrument=xylophone,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/12"
+    },
+    "instrument=xylophone,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/13"
+    },
+    "instrument=xylophone,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/14"
+    },
+    "instrument=xylophone,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/15"
+    },
+    "instrument=xylophone,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/16"
+    },
+    "instrument=xylophone,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/17"
+    },
+    "instrument=xylophone,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/18"
+    },
+    "instrument=xylophone,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/19"
+    },
+    "instrument=xylophone,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/20"
+    },
+    "instrument=xylophone,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/21"
+    },
+    "instrument=xylophone,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/22"
+    },
+    "instrument=xylophone,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/23"
+    },
+    "instrument=xylophone,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/xylophone/24"
+    },
+    "instrument=pling,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/0"
+    },
+    "instrument=pling,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/1"
+    },
+    "instrument=pling,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/2"
+    },
+    "instrument=pling,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/3"
+    },
+    "instrument=pling,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/4"
+    },
+    "instrument=pling,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/5"
+    },
+    "instrument=pling,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/6"
+    },
+    "instrument=pling,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/7"
+    },
+    "instrument=pling,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/8"
+    },
+    "instrument=pling,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/9"
+    },
+    "instrument=pling,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/10"
+    },
+    "instrument=pling,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/11"
+    },
+    "instrument=pling,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/12"
+    },
+    "instrument=pling,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/13"
+    },
+    "instrument=pling,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/14"
+    },
+    "instrument=pling,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/15"
+    },
+    "instrument=pling,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/16"
+    },
+    "instrument=pling,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/17"
+    },
+    "instrument=pling,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/18"
+    },
+    "instrument=pling,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/19"
+    },
+    "instrument=pling,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/20"
+    },
+    "instrument=pling,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/21"
+    },
+    "instrument=pling,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/22"
+    },
+    "instrument=pling,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/23"
+    },
+    "instrument=pling,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/pling/24"
+    },
+    "instrument=banjo,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/0"
+    },
+    "instrument=banjo,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/1"
+    },
+    "instrument=banjo,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/2"
+    },
+    "instrument=banjo,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/3"
+    },
+    "instrument=banjo,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/4"
+    },
+    "instrument=banjo,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/5"
+    },
+    "instrument=banjo,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/6"
+    },
+    "instrument=banjo,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/7"
+    },
+    "instrument=banjo,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/8"
+    },
+    "instrument=banjo,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/9"
+    },
+    "instrument=banjo,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/10"
+    },
+    "instrument=banjo,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/11"
+    },
+    "instrument=banjo,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/12"
+    },
+    "instrument=banjo,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/13"
+    },
+    "instrument=banjo,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/14"
+    },
+    "instrument=banjo,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/15"
+    },
+    "instrument=banjo,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/16"
+    },
+    "instrument=banjo,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/17"
+    },
+    "instrument=banjo,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/18"
+    },
+    "instrument=banjo,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/19"
+    },
+    "instrument=banjo,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/20"
+    },
+    "instrument=banjo,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/21"
+    },
+    "instrument=banjo,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/22"
+    },
+    "instrument=banjo,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/23"
+    },
+    "instrument=banjo,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/banjo/24"
+    },
+    "instrument=bit,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/0"
+    },
+    "instrument=bit,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/1"
+    },
+    "instrument=bit,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/2"
+    },
+    "instrument=bit,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/3"
+    },
+    "instrument=bit,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/4"
+    },
+    "instrument=bit,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/5"
+    },
+    "instrument=bit,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/6"
+    },
+    "instrument=bit,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/7"
+    },
+    "instrument=bit,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/8"
+    },
+    "instrument=bit,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/9"
+    },
+    "instrument=bit,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/10"
+    },
+    "instrument=bit,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/11"
+    },
+    "instrument=bit,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/12"
+    },
+    "instrument=bit,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/13"
+    },
+    "instrument=bit,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/14"
+    },
+    "instrument=bit,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/15"
+    },
+    "instrument=bit,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/16"
+    },
+    "instrument=bit,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/17"
+    },
+    "instrument=bit,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/18"
+    },
+    "instrument=bit,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/19"
+    },
+    "instrument=bit,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/20"
+    },
+    "instrument=bit,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/21"
+    },
+    "instrument=bit,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/22"
+    },
+    "instrument=bit,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/23"
+    },
+    "instrument=bit,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/bit/24"
+    },
+    "instrument=cow_bell,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/0"
+    },
+    "instrument=cow_bell,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/1"
+    },
+    "instrument=cow_bell,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/2"
+    },
+    "instrument=cow_bell,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/3"
+    },
+    "instrument=cow_bell,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/4"
+    },
+    "instrument=cow_bell,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/5"
+    },
+    "instrument=cow_bell,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/6"
+    },
+    "instrument=cow_bell,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/7"
+    },
+    "instrument=cow_bell,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/8"
+    },
+    "instrument=cow_bell,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/9"
+    },
+    "instrument=cow_bell,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/10"
+    },
+    "instrument=cow_bell,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/11"
+    },
+    "instrument=cow_bell,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/12"
+    },
+    "instrument=cow_bell,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/13"
+    },
+    "instrument=cow_bell,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/14"
+    },
+    "instrument=cow_bell,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/15"
+    },
+    "instrument=cow_bell,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/16"
+    },
+    "instrument=cow_bell,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/17"
+    },
+    "instrument=cow_bell,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/18"
+    },
+    "instrument=cow_bell,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/19"
+    },
+    "instrument=cow_bell,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/20"
+    },
+    "instrument=cow_bell,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/21"
+    },
+    "instrument=cow_bell,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/22"
+    },
+    "instrument=cow_bell,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/23"
+    },
+    "instrument=cow_bell,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/cow_bell/24"
+    },
+    "instrument=iron_xylophone,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/0"
+    },
+    "instrument=iron_xylophone,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/1"
+    },
+    "instrument=iron_xylophone,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/2"
+    },
+    "instrument=iron_xylophone,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/3"
+    },
+    "instrument=iron_xylophone,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/4"
+    },
+    "instrument=iron_xylophone,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/5"
+    },
+    "instrument=iron_xylophone,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/6"
+    },
+    "instrument=iron_xylophone,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/7"
+    },
+    "instrument=iron_xylophone,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/8"
+    },
+    "instrument=iron_xylophone,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/9"
+    },
+    "instrument=iron_xylophone,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/10"
+    },
+    "instrument=iron_xylophone,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/11"
+    },
+    "instrument=iron_xylophone,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/12"
+    },
+    "instrument=iron_xylophone,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/13"
+    },
+    "instrument=iron_xylophone,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/14"
+    },
+    "instrument=iron_xylophone,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/15"
+    },
+    "instrument=iron_xylophone,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/16"
+    },
+    "instrument=iron_xylophone,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/17"
+    },
+    "instrument=iron_xylophone,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/18"
+    },
+    "instrument=iron_xylophone,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/19"
+    },
+    "instrument=iron_xylophone,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/20"
+    },
+    "instrument=iron_xylophone,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/21"
+    },
+    "instrument=iron_xylophone,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/22"
+    },
+    "instrument=iron_xylophone,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/23"
+    },
+    "instrument=iron_xylophone,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/iron_xylophone/24"
+    },
+    "instrument=didgeridoo,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/0"
+    },
+    "instrument=didgeridoo,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/1"
+    },
+    "instrument=didgeridoo,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/2"
+    },
+    "instrument=didgeridoo,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/3"
+    },
+    "instrument=didgeridoo,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/4"
+    },
+    "instrument=didgeridoo,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/5"
+    },
+    "instrument=didgeridoo,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/6"
+    },
+    "instrument=didgeridoo,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/7"
+    },
+    "instrument=didgeridoo,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/8"
+    },
+    "instrument=didgeridoo,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/9"
+    },
+    "instrument=didgeridoo,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/10"
+    },
+    "instrument=didgeridoo,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/11"
+    },
+    "instrument=didgeridoo,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/12"
+    },
+    "instrument=didgeridoo,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/13"
+    },
+    "instrument=didgeridoo,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/14"
+    },
+    "instrument=didgeridoo,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/15"
+    },
+    "instrument=didgeridoo,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/16"
+    },
+    "instrument=didgeridoo,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/17"
+    },
+    "instrument=didgeridoo,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/18"
+    },
+    "instrument=didgeridoo,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/19"
+    },
+    "instrument=didgeridoo,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/20"
+    },
+    "instrument=didgeridoo,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/21"
+    },
+    "instrument=didgeridoo,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/22"
+    },
+    "instrument=didgeridoo,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/23"
+    },
+    "instrument=didgeridoo,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/didgeridoo/24"
+    },
+    "instrument=zombie,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/0"
+    },
+    "instrument=zombie,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/1"
+    },
+    "instrument=zombie,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/2"
+    },
+    "instrument=zombie,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/3"
+    },
+    "instrument=zombie,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/4"
+    },
+    "instrument=zombie,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/5"
+    },
+    "instrument=zombie,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/6"
+    },
+    "instrument=zombie,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/7"
+    },
+    "instrument=zombie,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/8"
+    },
+    "instrument=zombie,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/9"
+    },
+    "instrument=zombie,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/10"
+    },
+    "instrument=zombie,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/11"
+    },
+    "instrument=zombie,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/12"
+    },
+    "instrument=zombie,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/13"
+    },
+    "instrument=zombie,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/14"
+    },
+    "instrument=zombie,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/15"
+    },
+    "instrument=zombie,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/16"
+    },
+    "instrument=zombie,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/17"
+    },
+    "instrument=zombie,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/18"
+    },
+    "instrument=zombie,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/19"
+    },
+    "instrument=zombie,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/20"
+    },
+    "instrument=zombie,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/21"
+    },
+    "instrument=zombie,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/22"
+    },
+    "instrument=zombie,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/23"
+    },
+    "instrument=zombie,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/zombie/24"
+    },
+    "instrument=custom_head,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/0"
+    },
+    "instrument=custom_head,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/1"
+    },
+    "instrument=custom_head,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/2"
+    },
+    "instrument=custom_head,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/3"
+    },
+    "instrument=custom_head,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/4"
+    },
+    "instrument=custom_head,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/5"
+    },
+    "instrument=custom_head,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/6"
+    },
+    "instrument=custom_head,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/7"
+    },
+    "instrument=custom_head,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/8"
+    },
+    "instrument=custom_head,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/9"
+    },
+    "instrument=custom_head,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/10"
+    },
+    "instrument=custom_head,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/11"
+    },
+    "instrument=custom_head,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/12"
+    },
+    "instrument=custom_head,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/13"
+    },
+    "instrument=custom_head,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/14"
+    },
+    "instrument=custom_head,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/15"
+    },
+    "instrument=custom_head,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/16"
+    },
+    "instrument=custom_head,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/17"
+    },
+    "instrument=custom_head,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/18"
+    },
+    "instrument=custom_head,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/19"
+    },
+    "instrument=custom_head,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/20"
+    },
+    "instrument=custom_head,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/21"
+    },
+    "instrument=custom_head,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/22"
+    },
+    "instrument=custom_head,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/23"
+    },
+    "instrument=custom_head,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/custom_head/24"
+    },
+    "instrument=creeper,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/0"
+    },
+    "instrument=creeper,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/1"
+    },
+    "instrument=creeper,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/2"
+    },
+    "instrument=creeper,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/3"
+    },
+    "instrument=creeper,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/4"
+    },
+    "instrument=creeper,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/5"
+    },
+    "instrument=creeper,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/6"
+    },
+    "instrument=creeper,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/7"
+    },
+    "instrument=creeper,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/8"
+    },
+    "instrument=creeper,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/9"
+    },
+    "instrument=creeper,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/10"
+    },
+    "instrument=creeper,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/11"
+    },
+    "instrument=creeper,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/12"
+    },
+    "instrument=creeper,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/13"
+    },
+    "instrument=creeper,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/14"
+    },
+    "instrument=creeper,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/15"
+    },
+    "instrument=creeper,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/16"
+    },
+    "instrument=creeper,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/17"
+    },
+    "instrument=creeper,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/18"
+    },
+    "instrument=creeper,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/19"
+    },
+    "instrument=creeper,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/20"
+    },
+    "instrument=creeper,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/21"
+    },
+    "instrument=creeper,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/22"
+    },
+    "instrument=creeper,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/23"
+    },
+    "instrument=creeper,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/creeper/24"
+    },
+    "instrument=wither_skeleton,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/0"
+    },
+    "instrument=wither_skeleton,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/1"
+    },
+    "instrument=wither_skeleton,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/2"
+    },
+    "instrument=wither_skeleton,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/3"
+    },
+    "instrument=wither_skeleton,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/4"
+    },
+    "instrument=wither_skeleton,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/5"
+    },
+    "instrument=wither_skeleton,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/6"
+    },
+    "instrument=wither_skeleton,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/7"
+    },
+    "instrument=wither_skeleton,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/8"
+    },
+    "instrument=wither_skeleton,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/9"
+    },
+    "instrument=wither_skeleton,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/10"
+    },
+    "instrument=wither_skeleton,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/11"
+    },
+    "instrument=wither_skeleton,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/12"
+    },
+    "instrument=wither_skeleton,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/13"
+    },
+    "instrument=wither_skeleton,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/14"
+    },
+    "instrument=wither_skeleton,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/15"
+    },
+    "instrument=wither_skeleton,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/16"
+    },
+    "instrument=wither_skeleton,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/17"
+    },
+    "instrument=wither_skeleton,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/18"
+    },
+    "instrument=wither_skeleton,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/19"
+    },
+    "instrument=wither_skeleton,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/20"
+    },
+    "instrument=wither_skeleton,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/21"
+    },
+    "instrument=wither_skeleton,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/22"
+    },
+    "instrument=wither_skeleton,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/23"
+    },
+    "instrument=wither_skeleton,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/wither_skeleton/24"
+    },
+    "instrument=skeleton,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/0"
+    },
+    "instrument=skeleton,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/1"
+    },
+    "instrument=skeleton,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/2"
+    },
+    "instrument=skeleton,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/3"
+    },
+    "instrument=skeleton,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/4"
+    },
+    "instrument=skeleton,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/5"
+    },
+    "instrument=skeleton,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/6"
+    },
+    "instrument=skeleton,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/7"
+    },
+    "instrument=skeleton,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/8"
+    },
+    "instrument=skeleton,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/9"
+    },
+    "instrument=skeleton,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/10"
+    },
+    "instrument=skeleton,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/11"
+    },
+    "instrument=skeleton,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/12"
+    },
+    "instrument=skeleton,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/13"
+    },
+    "instrument=skeleton,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/14"
+    },
+    "instrument=skeleton,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/15"
+    },
+    "instrument=skeleton,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/16"
+    },
+    "instrument=skeleton,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/17"
+    },
+    "instrument=skeleton,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/18"
+    },
+    "instrument=skeleton,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/19"
+    },
+    "instrument=skeleton,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/20"
+    },
+    "instrument=skeleton,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/21"
+    },
+    "instrument=skeleton,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/22"
+    },
+    "instrument=skeleton,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/23"
+    },
+    "instrument=skeleton,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/skeleton/24"
+    },
+    "instrument=dragon,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/0"
+    },
+    "instrument=dragon,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/1"
+    },
+    "instrument=dragon,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/2"
+    },
+    "instrument=dragon,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/3"
+    },
+    "instrument=dragon,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/4"
+    },
+    "instrument=dragon,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/5"
+    },
+    "instrument=dragon,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/6"
+    },
+    "instrument=dragon,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/7"
+    },
+    "instrument=dragon,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/8"
+    },
+    "instrument=dragon,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/9"
+    },
+    "instrument=dragon,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/10"
+    },
+    "instrument=dragon,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/11"
+    },
+    "instrument=dragon,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/12"
+    },
+    "instrument=dragon,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/13"
+    },
+    "instrument=dragon,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/14"
+    },
+    "instrument=dragon,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/15"
+    },
+    "instrument=dragon,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/16"
+    },
+    "instrument=dragon,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/17"
+    },
+    "instrument=dragon,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/18"
+    },
+    "instrument=dragon,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/19"
+    },
+    "instrument=dragon,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/20"
+    },
+    "instrument=dragon,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/21"
+    },
+    "instrument=dragon,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/22"
+    },
+    "instrument=dragon,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/23"
+    },
+    "instrument=dragon,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/dragon/24"
+    },
+    "instrument=piglin,note=0": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/0"
+    },
+    "instrument=piglin,note=1": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/1"
+    },
+    "instrument=piglin,note=2": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/2"
+    },
+    "instrument=piglin,note=3": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/3"
+    },
+    "instrument=piglin,note=4": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/4"
+    },
+    "instrument=piglin,note=5": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/5"
+    },
+    "instrument=piglin,note=6": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/6"
+    },
+    "instrument=piglin,note=7": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/7"
+    },
+    "instrument=piglin,note=8": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/8"
+    },
+    "instrument=piglin,note=9": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/9"
+    },
+    "instrument=piglin,note=10": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/10"
+    },
+    "instrument=piglin,note=11": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/11"
+    },
+    "instrument=piglin,note=12": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/12"
+    },
+    "instrument=piglin,note=13": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/13"
+    },
+    "instrument=piglin,note=14": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/14"
+    },
+    "instrument=piglin,note=15": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/15"
+    },
+    "instrument=piglin,note=16": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/16"
+    },
+    "instrument=piglin,note=17": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/17"
+    },
+    "instrument=piglin,note=18": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/18"
+    },
+    "instrument=piglin,note=19": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/19"
+    },
+    "instrument=piglin,note=20": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/20"
+    },
+    "instrument=piglin,note=21": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/21"
+    },
+    "instrument=piglin,note=22": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/22"
+    },
+    "instrument=piglin,note=23": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/23"
+    },
+    "instrument=piglin,note=24": {
+      "model": "block/note_jukebox/note_block/notes_addon/instruments/piglin/24"
     }
-
+  }
 }
