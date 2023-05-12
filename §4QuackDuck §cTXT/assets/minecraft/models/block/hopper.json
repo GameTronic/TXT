@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"textures": {
 		"top": "block/hopper_top",
-		"particle": "break/hopper",
-		"side": "block/hopper_back",
+		"particle": "block/break/hopper",
+		"side": "block/hopper_outside",
 		"inside": "block/hopper_inside"
 	},
 	"elements": [
